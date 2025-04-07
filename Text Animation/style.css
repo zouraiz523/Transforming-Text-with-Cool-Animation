@@ -1,0 +1,25 @@
+body {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  #text-container {
+    transition: opacity 1s ease;
+    opacity: 0;
+  }
+  
+  #text-container.visible {
+    opacity: 2;
+  }
+  
+  #animated-text {
+    font-size: 3rem;
+    transition: color 0.5s, font-size 0.5s;
+  }
+  
